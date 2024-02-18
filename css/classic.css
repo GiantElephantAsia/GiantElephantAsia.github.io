@@ -52,6 +52,7 @@
       border: 1px solid #ccc;
       border-radius: 5px;
       cursor: pointer;
+      text-decoration: none;
     }
 
     @media (max-width: 768px) {
