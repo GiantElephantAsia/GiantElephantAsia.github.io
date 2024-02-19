@@ -18,6 +18,13 @@
           url("/fonts/Anton.woff") format("woff");
 }
 
+    @font-face {
+       font-family: "HelveMediaFire";
+       src:
+          url("/fonts/HelveNeueLTP96BIta.woff2") format("woff2"),
+          url("/fonts/HelveNeueLTP96BIta.woff") format("woff");
+}
+
     body {
       font-family: HarmonySans;
       margin: 0;
@@ -80,6 +87,18 @@
 
     .buttonmcpedl {
       font-family: Anton;        
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: black;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .buttonmediafire {
+      font-family: HelveMediaFire;        
       margin-top: 10px;
       padding: 10px 20px;
       font-size: 16px;
