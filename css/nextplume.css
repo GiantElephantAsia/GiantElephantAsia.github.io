@@ -11,6 +11,12 @@
           url("/fonts/NextPlumeEn.woff") format("woff");
 }
 
+    @font-face {
+       font-family: "NextPlumeEnB";
+       src:
+          url("/fonts/NextPlumeEnB.woff2") format("woff2"),
+          url("/fonts/NextPlumeEnB.woff") format("woff");
+}
 
 
     body {
@@ -37,7 +43,7 @@
       height: 100%;
       background-image: url(/images/background-lny.png);
       background-size: cover;
-      filter: blur(15px);
+      filter: blur(30px);
     }
 
     .content {
@@ -50,7 +56,7 @@
     }
 
     .title {
-      font-family: NextPlumeEn;
+      font-family: NextPlumeEnB;
       font-size: 24px;
       margin-bottom: 10px;
     }
