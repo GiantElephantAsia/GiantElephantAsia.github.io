@@ -1,3 +1,23 @@
+    @media (max-width: 768px) {
+      .content {
+        max-width: 90%;
+      }
+    }
+
+    @font-face {
+       font-family: "HarmonySans";
+       src:
+          url("/fonts/HarmonyOS-Sans-SC-Medium.woff2") format("woff2"),
+          url("/fonts/HarmonyOS-Sans-SC-Medium.woff") format("woff");
+}
+
+    @font-face {
+       font-family: "Anton";
+       src:
+          url("/fonts/Anton.woff2") format("woff2"),
+          url("/fonts/Anton.woff") format("woff");
+}
+
     body {
       font-family: HarmonySans;
       margin: 0;
@@ -58,22 +78,14 @@
       text-decoration: none;
     }
 
-    @media (max-width: 768px) {
-      .content {
-        max-width: 90%;
-      }
+    .buttonmcpedl {
+      font-family: Anton;        
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      color: black;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
     }
-
-    @font-face {
-       font-family: "HarmonySans";
-       src:
-          url("/fonts/HarmonyOS-Sans-SC-Medium.woff2") format("woff2"),
-          url("/fonts/HarmonyOS-Sans-SC-Medium.woff") format("woff");
-}
-
-    @font-face {
-       font-family: "Anton";
-       src:
-          url("/fonts/Anton.woff2") format("woff2"),
-          url("/fonts/Anton.woff") format("woff");
-}
