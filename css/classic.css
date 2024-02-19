@@ -25,6 +25,14 @@
           url("/fonts/HelveNeueLTP96BIta.woff") format("woff");
 }
 
+    @font-face {
+       font-family: "MaokenAssortedSans";
+       src:
+          url("/fonts/MaokenAssortedSans.woff") format("woff"),
+          url("/fonts/MaokenAssortedSans.ttf") format("ttf");
+}
+
+
     body {
       font-family: HarmonySans;
       margin: 0;
