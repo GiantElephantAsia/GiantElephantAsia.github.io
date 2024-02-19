@@ -1,1 +1,0 @@
-**GiantElephant Asia - Web Images**
