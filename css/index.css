@@ -5,7 +5,7 @@
     }
 
     body {
-      font-family: sans-serif;
+      font-family: PDFont;
       margin: 0;
       padding: 0;
       background-color: #f5f5f5;
@@ -41,13 +41,13 @@
     }
 
     .title {
-      font-family: sans-serif;
+      font-family: PDFont;
       font-size: 24px;
       margin-bottom: 10px;
     }
 
     .text {
-      font-family: sans-serif;
+      font-family: PDFont;
       font-size: 16px;
       line-height: 1.5;
     }
