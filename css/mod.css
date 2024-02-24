@@ -44,7 +44,6 @@
       z-index: 1;
       padding: 20px;
       background-color: rgba(255, 255, 255, 0.7); /* 格框调色 */
-      border-radius: 10px;
       max-width: 800px;
     }
 
@@ -69,7 +68,6 @@
     font-size: 16px;
     border: none;
     cursor: pointer;
-    border-radius: 10px;
 }
 
 /* 容器 <div> - 需要定位下拉内容 */
@@ -83,7 +81,6 @@
     display: none;
     position: absolute;
     background-color: white;
-    border-radius: 10px;
     font-family: PDFont;
     color: black;
     min-width: 160px;
@@ -110,5 +107,4 @@
 /* 当下拉内容显示后修改下拉按钮的背景颜色 */
 .dropdown:hover .dropbtn {
     background-color: black;
-    border-radius: 10px;
 }
