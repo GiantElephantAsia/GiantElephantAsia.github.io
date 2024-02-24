@@ -59,3 +59,10 @@
       font-size: 16px;
       line-height: 1.5;
     }
+
+    .text650 {
+      font-family: PDFont;
+      font-size: 18px;
+      font-weight: 650;  
+      line-height: 1.8;
+    }
