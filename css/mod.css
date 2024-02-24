@@ -110,4 +110,5 @@
 /* 当下拉内容显示后修改下拉按钮的背景颜色 */
 .dropdown:hover .dropbtn {
     background-color: black;
+    border-radius: 10px;
 }
