@@ -18,6 +18,12 @@
           url("/fonts/HelveNeueLTP96BIta.woff") format("woff");
 }
 
+    @font-face {
+       font-family: "PDFont"; /* PDFont */
+       src:
+          url("/fonts/PDFont.woff2") format("woff2"),
+          url("/fonts/PDFont.woff") format("woff");
+}
 
     body {
       font-family: sans-serif;
@@ -103,6 +109,26 @@
   background: YellowGreen;
   color: black;
   font-family: Anton; /* MCPEDL 按钮悬停 */
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.buttonmod {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: PDFont; /* Mod 按钮 */
+  color: white;
+  font-size: 16px;
+  background: black;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.buttonmod:hover {
+  background: YellowGreen;
+  color: black;
+  font-family: PDFont; /* Mod 按钮悬停 */
   font-size: 16px;
   text-decoration: none;
 }
