@@ -1,0 +1,220 @@
+    @media (max-width: 768px) {
+      .content {
+        max-width: 90%;
+        /* 界面响应调制 */
+      }
+    }
+
+
+    @font-face {
+      font-family: "MCPEDL";
+      /* MCPEDL 字标 */
+      src:
+        url("/fonts/MCPEDL.woff2") format("woff2"),
+        url("/fonts/MCPEDL.woff") format("woff");
+    }
+
+    @font-face {
+      font-family: "Modrinth";
+      /* Modrinth 字标 */
+      src:
+        url("/fonts/Modrinth.woff2") format("woff2"),
+        url("/fonts/Modrinth.woff") format("woff");
+    }
+
+    @font-face {
+      font-family: "ModBay";
+      /* ModBay 字标 */
+      src:
+        url("/fonts/ModBay.woff2") format("woff2"),
+        url("/fonts/ModBay.woff") format("woff");
+    }
+
+    @font-face {
+      font-family: "CurseForge";
+      /* CurseForge 字标 */
+      src:
+        url("/fonts/CurseForge.woff2") format("woff2"),
+        url("/fonts/CurseForge.woff") format("woff");
+    }
+
+    @font-face {
+      font-family: "MediaFire";
+      /* MediaFire 字标 */
+      src:
+        url("/fonts/MediaFire.woff2") format("woff2"),
+        url("/fonts/MediaFire.woff") format("woff");
+    }
+
+    @font-face {
+      font-family: "PDFont";
+      /* PDFont */
+      src:
+        url("/fonts/PDFont.woff2") format("woff2"),
+        url("/fonts/PDFont.woff") format("woff");
+    }
+
+
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(https://s11.ax1x.com/2024/02/27/pFd0bDA.jpg);
+      /* 背景图片 */
+      background-size: cover;
+      filter: blur(10px);
+      /* 背景朦胧 */
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.7);
+      /* 格框调色 */
+      border-radius: 10px;
+      max-width: 800px;
+    }
+
+    .title {
+      font-family: sans-serif;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .text {
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+
+    .buttonmediafire {
+      -webkit-border-radius: 8;
+      -moz-border-radius: 8;
+      border-radius: 8px;
+      font-family: MediaFire;
+      /* MediaFire 按钮 */
+      color: white;
+      font-size: 16px;
+      background: black;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+    }
+
+    .buttonmediafire:hover {
+      background: MidnightBlue;
+      color: white;
+      font-family: MediaFire;
+      /* MediaFire 按钮悬停 */
+      font-size: 16px;
+      text-decoration: none;
+    }
+
+    .buttonmcpedl {
+      -webkit-border-radius: 8;
+      -moz-border-radius: 8;
+      border-radius: 8px;
+      font-family: MCPEDL;
+      /* MCPEDL 按钮 */
+      color: white;
+      font-size: 16px;
+      background: black;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+    }
+
+    .buttonmcpedl:hover {
+      background: DarkGreen;
+      color: white;
+      font-family: MCPEDL;
+      /* MCPEDL 按钮悬停 */
+      font-size: 16px;
+      text-decoration: none;
+    }
+
+    .buttonmodrinth {
+      -webkit-border-radius: 8;
+      -moz-border-radius: 8;
+      border-radius: 8px;
+      font-family: Modrinth;
+      /* Modrinth 按钮 */
+      color: white;
+      font-size: 16px;
+      background: black;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+    }
+
+    .buttonmodrinth:hover {
+      background: Teal;
+      color: white;
+      font-family: Modrinth;
+      /* Modrinth 按钮悬停 */
+      font-size: 16px;
+      text-decoration: none;
+    }
+
+    .buttonmodbay {
+      -webkit-border-radius: 8;
+      -moz-border-radius: 8;
+      border-radius: 8px;
+      font-family: ModBay;
+      /* ModBay 按钮 */
+      color: white;
+      font-size: 16px;
+      background: black;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+    }
+
+    .buttonmodbay:hover {
+      background: Indigo;
+      color: white;
+      font-family: ModBay;
+      /* ModBay 按钮悬停 */
+      font-size: 16px;
+      text-decoration: none;
+    }
+
+    .buttoncurseforge {
+      -webkit-border-radius: 8;
+      -moz-border-radius: 8;
+      border-radius: 8px;
+      font-family: CurseForge;
+      /* CurseForge 按钮 */
+      color: white;
+      font-size: 16px;
+      background: black;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+    }
+
+    .buttoncurseforge:hover {
+      background: SaddleBrown;
+      color: white;
+      font-family: CurseForge;
+      /* CurseForge 按钮悬停 */
+      font-size: 16px;
+      text-decoration: none;
+    }
+
+
