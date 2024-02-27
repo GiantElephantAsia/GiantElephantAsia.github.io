@@ -121,7 +121,7 @@
     }
 
     .buttonmediafire:hover {
-      background: MidnightBlue;
+      background: #283593;
       color: white;
       font-family: MediaFire;
       /* MediaFire 按钮悬停 */
@@ -143,7 +143,7 @@
     }
 
     .buttonmcpedl:hover {
-      background: DarkGreen;
+      background: #2E7D32;
       color: white;
       font-family: MCPEDL;
       /* MCPEDL 按钮悬停 */
@@ -165,7 +165,7 @@
     }
 
     .buttonmodrinth:hover {
-      background: Teal;
+      background: #8BC34A;
       color: white;
       font-family: Modrinth;
       /* Modrinth 按钮悬停 */
@@ -187,7 +187,7 @@
     }
 
     .buttonmodbay:hover {
-      background: Indigo;
+      background: #7E57C2;
       color: white;
       font-family: ModBay;
       /* ModBay 按钮悬停 */
@@ -209,7 +209,7 @@
     }
 
     .buttoncurseforge:hover {
-      background: SaddleBrown;
+      background: #FB8C00;
       color: white;
       font-family: CurseForge;
       /* CurseForge 按钮悬停 */
