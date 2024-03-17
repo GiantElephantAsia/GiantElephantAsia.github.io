@@ -106,6 +106,12 @@
       line-height: 1.5;
     }
 
+    .buttontext {
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 4;
+    }
+
 
     .buttonmediafire {
       -webkit-border-radius: 8;
