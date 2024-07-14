@@ -3,12 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>初页</title>
+    <title></title>
 </head>
-  
 <body>
- <h1>这只是千千万万网站中的一个</h1>
- <p>相信它终将会为千千万万你我注入能量</p>   
+<script type="text/javascript">
+  var language =
+    localStorage.getItem("locale") ||
+    window.navigator.language.toLowerCase() ||
+    "en";
 
+  localStorage.setItem("locale", language);
+
+  if (language.indexOf("zh-") !== -1) {
+    window.location = "/index.html";
+  } else if (language.indexOf("en") !== -1) {
+    window.location = "https://play.google.com/store/apps/dev?id=7710637777904825280";
+  } else {
+
+    window.location = "https://play.google.com/store/apps/dev?id=7710637777904825280";
+  }
+</script>       
+
+    <h1>启动！</h1>
+    <table>
+    <thead>
+      <tr>
+        <th>图标</th>
+        <th>游戏名</th>
+        <th>详情页</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>暂无</td>
+        <td>游戏开发物语</td>
+        <td>暂无</td>
+      </tr>
+      <tr>
+        <td>暂无</td>
+        <td>温泉物语</td>
+        <td>暂无</td>
+      </tr>
+      <tr>
+        <td>暂无</td>
+        <td>冒险村物语</td>
+        <td>暂无</td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 </html>
